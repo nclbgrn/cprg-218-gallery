@@ -1,4 +1,4 @@
-/* General Styles */
+/* Global Styles */
 body {
     font-family: sans-serif;
     background-color: #cccccc;
@@ -6,11 +6,45 @@ body {
     padding: 0;
 }
 
-/* Header */
+/* Header Styles */
 header {
     background-color: #120323;
-    color: #97bf04;
     text-align: center;
-    padding: 20px 0;
+    padding: 2rem;
 }
 
+h1 {
+    color: #97bf04;
+    font-size: 2.5rem;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #d9043d;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem 1.5rem;
+    display: block;
+    border: 0.2rem solid #97bf04;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
