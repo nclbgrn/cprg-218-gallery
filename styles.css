@@ -62,8 +62,7 @@ h2 {
  }
  
  figure {
-    background-color: var(--light-text);
-    padding: 1.5rem;
+    background-color: #ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
  }
  
@@ -71,7 +70,7 @@ h2 {
     width: 100%;
     max-width: 620px;
     display: block;
-    border-bottom: 8px solid var(--accent-color);
+    border-bottom: 8px solid #97bf04;
     margin: auto;
  }
  
@@ -81,8 +80,8 @@ h2 {
 
  /* Footer */
 footer {
-    background-color: var(--highlight-color);
-    color: var(--light-text);
+    background-color: #d9043d;
+    color: #ffffff;
     text-align: center;
     padding: 1.5rem;
  }
