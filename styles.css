@@ -46,3 +46,35 @@ header {
     text-decoration: none;
     font-weight: bold;
  }
+
+ /* Main Content */
+h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+ }
+ 
+ #gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    padding: 0 2rem;
+ }
+ 
+ figure {
+    background-color: var(--light-text);
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+ }
+ 
+ figure img {
+    width: 100%;
+    max-width: 620px;
+    display: block;
+    border-bottom: 8px solid var(--accent-color);
+    margin: auto;
+ }
+ 
+ figure:last-of-type {
+    grid-column: span 2;
+ }
